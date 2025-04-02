@@ -5,7 +5,7 @@ Automatically restarts your (predefined) servers in the event that they are stop
 ## Setup
 
 You can set this up with Docker.
-You can retrieve your session token by viewing your cookies using your browser's developer tools. (`NexoSystems_SESSION``)
+You can retrieve your session token by viewing your cookies using your browser's developer tools. (`NexoSystems_SESSION`)
 
 ## Environment variables
 
