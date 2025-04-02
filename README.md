@@ -12,6 +12,6 @@ You can retrieve your session token by viewing your cookies using your browser's
 | Name             | Description                                           | Default                    |
 | ---------------- | ----------------------------------------------------- | -------------------------- |
 | `API_URL`        | URL of the API                                        | `https://nexo.systems/api` |
-| `SESSION_TOKEN`  | Session token                                         | `null`                     |
-| `SERVER_IDS`     | Comma-separated list of server (service) IDs to watch | `null`                     |
+| `SESSION_TOKEN`  | Session token                                         | Required!                  |
+| `SERVER_IDS`     | Comma-separated list of server (service) IDs to watch | ``                         |
 | `CHECK_INTERVAL` | Interval in seconds to check the status of the server | `15`                       |
