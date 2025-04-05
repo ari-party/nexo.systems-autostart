@@ -19,7 +19,8 @@ export const env = createEnv({
     CHECK_INTERVAL: z
       .string()
       .default('15')
-      .transform((v) => parseInt(v, 10)),
+      .transform((v) => parseInt(v, 10))
+      .pipe(z.number()),
   },
   runtimeEnv: process.env,
   emptyStringAsUndefined: true,
